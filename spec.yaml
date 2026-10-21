@@ -1,0 +1,22 @@
+name: wax-haptic-feedback-simulator
+trust_label: educational-reference
+version: 0.1.0
+purpose: >
+  Return pulse timings, or an empty list when haptics are off.
+invariants:
+  - src/haptic.ts performs no network or wallet calls.
+  - Requests in src/usecases.ts set executed to false.
+  - The only transaction is an unsigned token transfer in src/usecases.ts.
+do_not:
+  - Do not add a live client and keep this trust label.
+entrypoints:
+  logic: src/haptic.ts
+  tests: src/haptic.test.ts
+  demo: src/Demo.tsx
+  queries: src/usecases.ts
+commands:
+  test: npm test
+  demo: npm run dev
+live_data:
+  status: untested
+  notes: No endpoint was called.
