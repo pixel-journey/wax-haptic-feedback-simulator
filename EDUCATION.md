@@ -8,7 +8,7 @@
 | Level | After this file |
 | --- | --- |
 | Beginner | Call `pattern("confirm", true)` and get a single 40 ms on pulse |
-| Intermediate | Explain why disabled returns `[]` and why on-time stays under 200 ms |
+| Intermediate | Explain why any disabled kind returns `[]`, and why fail is three pulses of 20 ms (`60`), not "under 200" |
 | Masterclass | Say why a timing list is not a device vibration, and what is still missing |
 
 ---

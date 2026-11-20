@@ -1,7 +1,7 @@
 # Local pulse timings for confirm / warn / fail — without calling vibrate
 
 > **Trust:** `educational-reference`  
-> **Catalog:** [wax-ecosystem-blueprint-catalog](https://github.com/pixel-journey/wax-ecosystem-blueprint-catalog)
+> **Catalog:** `wax-ecosystem-blueprint-catalog` (private index; not this public course)
 
 **One-sentence goal:** Teach fixed short pulse lists for three event kinds, with a disabled-empty path, without claiming a device vibration or a live feed.
 
